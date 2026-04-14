@@ -1,1 +1,49 @@
-site_name: My Docs
+site_name: UTPL - Programas Académicos
+site_description: Catálogo de carreras y programas de la Universidad Técnica Particular de Loja
+site_author: UTPL
+site_url: https://utpl.edu.ec
+
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: Modo oscuro
+    - scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+  
+  font:
+    text: Roboto
+    code: Roboto Mono
+  
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - search.highlight
+    - search.suggest
+
+nav:
+  - Inicio: index.md
+  - Facultades:
+    - Ciencias Sociales, Educación y Humanidades: faculty/sociales.md
+    - Ciencias Jurídicas y Políticas: faculty/juridicas.md
+    - Ciencias Exactas y Naturales: faculty/exactas.md
+    - Ciencias de la Salud: faculty/salud.md
+    - Ciencias Económicas y Empresariales: faculty/economicas.md
+    - Ciencias del Comportamiento: faculty/comportamiento.md
+    - Ingenierías y Arquitectura: faculty/ingenierias.md
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - admonition
+
