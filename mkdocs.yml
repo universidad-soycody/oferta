@@ -7,18 +7,9 @@ theme:
   name: material
   language: es
   palette:
-    - scheme: default
-      primary: teal
-      accent: lime
-      toggle:
-        icon: material/weather-night
-        name: Modo oscuro
-    - scheme: slate
-      primary: teal
-      accent: lime
-      toggle:
-        icon: material/weather-sunny
-        name: Modo claro
+    scheme: default
+    primary: teal
+    accent: lime
   
   font:
     text: Roboto
